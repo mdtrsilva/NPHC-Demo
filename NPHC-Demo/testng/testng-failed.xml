@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/tharindu/IdeaProjects/NPHC-Demo(failed)">
+    <classes>
+      <class name="com.apiTests.API_InsertPerson">
+        <methods>
+          <include name="insertPerson_with_blank_gender_value"/>
+          <include name="insertPerson_with_blank_NatId"/>
+        </methods>
+      </class> <!-- com.apiTests.API_InsertPerson -->
+    </classes>
+  </test> <!-- /Users/tharindu/IdeaProjects/NPHC-Demo(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

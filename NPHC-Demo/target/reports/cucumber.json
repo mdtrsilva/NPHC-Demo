@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-05T15:11:36.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3099483000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "The Dispense button should be as given design",
+        "description": "",
+        "id": "governor;the-dispense-button-should-be-as-given-design",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79986000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174490000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the url",
+            "match": {
+              "location": "stepDefinitions.Steps.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94650000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the button should be displayed correctly",
+            "match": {
+              "location": "stepDefinitions.Steps.despense_button_verfification()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T15:11:41.260Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2049932000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Naviagion page should be correct after click Dispense button",
+        "description": "",
+        "id": "governor;naviagion-page-should-be-correct-after-click-dispense-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "launch the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1564218000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "open the url",
+            "match": {
+              "location": "stepDefinitions.Steps.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 525697000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on the button",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36293000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the landing page should be correct",
+            "match": {
+              "location": "stepDefinitions.Steps.the_landingpage_verification()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Governor",
+    "description": "",
+    "id": "governor",
+    "keyword": "Feature",
+    "uri": "file:features/TC003_Governor.feature",
+    "tags": []
+  }
+]
